@@ -1,0 +1,264 @@
+/*心灵花园框架样式*/
+.xl-cont{
+	width:1000px;
+	background:url(../images/xlhy/bg.jpg) 0 85px  no-repeat;
+	position:relative;
+	padding-top:85px;
+	min-height:700px;
+}
+
+.xl-cont .location{
+	width: 100%;
+	height: 122px;
+	background:url(../images/loc.png) 0 10px no-repeat;
+	position:absolute;
+	left:0;
+	top:0;
+	z-index:10;
+	
+}
+.xl-cont .location span{
+	display: inline-block;
+	position: absolute;
+	left: 119px;
+	top: 20px;
+	font-size: 18px;
+	color: #686860
+	}
+.xl-cont .location span a{
+	display: inline-block;
+	margin: 0 5px;
+	color: #686860
+}
+.xl-cont .location span a.curra{
+	color: #b1dc71
+}
+.xl-cont .cont-body{
+	
+	position:relative;
+	
+}
+.xl-cont .left-cont{
+	
+	position:absolute;
+	width:338px;
+	min-height:647px;
+	z-index:10;
+	top:0;
+	left:0;
+	overflow:hidden;
+	
+	
+}
+.left-cont .cloud{width:400px;height:200px;position:absolute;background:url(../images/xlhy/cloud.png) no-repeat;top:348px;z-index:-1;}
+.left-cont .left-top{height:214px;background:url(../images/xlhy/house-top.png) center 0 no-repeat;}
+.left-cont .left-top p{position:absolute;top:141px;left:108px;color:#F79D09;font-size:29px;}
+.left-cont .left-center{height:auto;background:url(../images/xlhy/house-middle.png) center 0px repeat-y;text-align:center;}
+.left-cont a{display:block;width:210px;height:51px;margin:0px auto 2px;}
+.left-cont a.one{background:url(../images/xlhy/yd-btn.png) 10px 0 no-repeat;}
+.left-cont a.two{background:url(../images/xlhy/xh-btn.png) 50px 0 no-repeat;}
+.left-cont a.three{background:url(../images/xlhy/sx-btn.png) 10px 0 no-repeat;}
+.left-cont a.four{background:url(../images/xlhy/xl-btn.png) 50px 0 no-repeat;}
+.left-cont a.five{background:url(../images/xlhy/yb-btn.png) 10px 0 no-repeat;}
+.left-cont a.last{background:url(../images/xlhy/zx-btn.png) 50px 0 no-repeat;margin-bottom:0;}
+.left-cont .left-bottom{height:116px;width:336px;background:url(../images/xlhy/child.png) -32px 0 no-repeat;}
+/*---------------心灵悦读样式--------------------*/
+.xl-cont .right-cont{
+	width: 633px;
+    float:left;
+    right: 26px;
+    top: 63px;
+	margin-left:338px;
+	margin-top:100px;
+
+}
+.xl-cont .right-cont .cold{
+	position:absolute;
+	width:210px;
+	height:125px;	
+	top:7px;left:235px;
+	background:url(../images/xlhy/yun.png) no-repeat;
+	
+}
+.xl-cont .right-cont .top{
+	width:100%;
+	height:16px;
+	background: url(../images/xlhy/top.png) no-repeat;
+}
+.xl-cont .right-cont .center{
+	width:100%;
+	height:auto;
+	background: url(../images/xlhy/center.png)  repeat-y;
+}
+.xl-cont .right-cont .bottom{
+	width:100%;
+	height:27px;
+	background: url(../images/xlhy/bottom.png)  no-repeat;
+}
+.xl-cont .right-cont .img-box{
+	
+	width:570px;
+	height:85px;
+	margin:0 auto 10px;
+	background: url(../images/xlhy/xlyd.png) no-repeat;
+}
+.xl-cont .right-cont .active{
+	width:570px;
+	height:90px;
+	margin:0 auto 10px;
+
+}
+.xl-cont .right-cont .active .active-img{
+	width:160px;
+	height:90px;
+	background:url(../images/xlhy/Bitmap.png) no-repeat;
+	float:left;
+}
+.xl-cont .right-cont .active .active-cont{
+	width:380px;
+	height:90px;
+	
+	float:left;
+	margin-left:10px;
+}
+.xl-cont .right-cont p.title{
+	font-size:15px;
+	color:#444138;
+	font-weight:600;
+	text-align:center;
+}
+.xl-cont .right-cont p.cont{
+	font-size:14px;
+	color:#747065;
+	height:45px;
+	line-height:15px;
+	width:100%;
+	margin-bottom:7px;
+
+}
+.xl-cont .right-cont .time{
+	font-size:14px;
+	color:#747065;
+}
+.xl-cont .right-cont .time a{
+	
+	color:#747065;
+}
+.xl-cont .right-cont .fr_content{
+	width:570px;
+	margin:10px auto 0;
+	height:auto;
+	color:#747065;
+	
+}
+.xl-cont .right-cont .fr_content a,
+.xl-cont .right-cont .fr_content span{
+	background:#FAF6EA;
+	color:#747065;
+}
+.changpage{
+	width:500px;
+	color: #6a6a6a;
+	margin:10px auto 0;
+	text-align:center;
+}
+.changpage a{
+	padding: 0 5px;
+	display: inline-block;
+	color: #6a6a6a;
+}
+/*-----------心海探索样式---------------*/
+.xl-cont .ts  .img-box{
+	background: url(../images/xlhy/xhts.png) no-repeat;
+}
+.ts .address{
+	width:570px;
+	text-align:left;
+	margin:0 auto;
+	color:#EAC678;
+}
+.ts .address a{
+	color:#EAC678;
+}
+.xl-cont .ts form .xq-list{
+	margin-bottom:10px;
+}
+.xl-cont .ts form .chose input{
+	vertical-align:middle\9;
+	
+}
+.xl-cont .ts form .chose label{
+	margin-right:10px;
+	color:#747065;
+}
+.xl-cont .ts form p{
+	color:#747065;
+	margin-bottom:5px;
+}
+.xl-cont .ts form .btn{
+	width:305px;
+	height:32px;
+	margin:20px auto 0;
+}
+.xl-cont .ts form .btn input{
+	width:120px;height:32px;
+}
+.xl-cont .ts form .btn input.fl{
+	background:url(../images/xlhy/submit.png) no-repeat;
+}
+.xl-cont .ts form .btn input.fr{
+	background:url(../images/xlhy/reset.png) no-repeat;
+}
+/*---------书香一瓣-----------------*/
+.xl-cont .sxyb  .img-box{
+	background: url(../images/xlhy/sxyb.png) no-repeat;
+}
+.xl-cont .sxyb .fr_content .book{float:left;width:110px;margin-left:27px;margin-bottom:15px;}
+.xl-cont .sxyb .fr_content .book img{width:110px;height:140px;}
+.xl-cont .sxyb .fr_content .book p{width:100%;height:25px;text-align:center;line-height:25px;}
+.xl-cont .sxyb .fr_content .book a{display:block;width:110px;height:165px;}
+
+
+/*-----------心理讲座--------------------*/
+.xl-cont .jz  .img-box{background: url(../images/xlhy/xljz.png) no-repeat;}
+.xl-cont .jz  .fr_content .video{float:left;width:110px;margin-left:27px;margin-bottom:15px;position:relative;}
+.xl-cont .jz  .fr_content .video img{width:110px;height:140px;}
+.xl-cont .jz  .fr_content .video a{display:block;width:110px;height:175px;}
+.xl-cont .jz  .fr_content .video p.name{width:100%;height:20px;text-align:center;line-height:20px;font-weight:bold;}
+.xl-cont .jz  .fr_content .video p.js{width:100%;height:15px;text-align:center;line-height:15px;font-size:12px;color:#B6B6B6;}
+.xl-cont .jz  .fr_content .video .mask{display:block;width:110px;height:140px;position:absolute;top:0;left:0;background:url(../images/xlhy/play.png);display:none;}
+#video{width:800px;height:600px;display:none;}
+
+/*--------------心灵氧吧----------------*/
+.xl-cont .yb .img-box{
+	background: url(../images/xlhy/xlyb.png) no-repeat;
+}
+.xl-cont .yb .text-cont{width:570px;height:auto;margin:0 auto;}
+.xl-cont .yb .text-cont .title{width:100%;text-align:center;font-size:20px;font-weight:bold;}
+.xl-cont .yb .text-cont .music{margin-top:20px;}
+.xl-cont .yb .text-cont .music p{text-indent:30px;line-height:22px;margin-bottom:10px;}
+.xl-cont .yb .text-cont .music .player{width:300px;height:30px;margin:0 auto 10px;}
+
+
+/*------------知心姐姐-----------------*/
+.xl-cont .jj .img-box{
+	background: url(../images/xlhy/zxjj.png) no-repeat;
+}
+.xl-cont .jj .fr_content form{margin-top:10px;border-bottom:2px dashed #FDB304;}
+.xl-cont .jj .fr_content form .cont{width:503px;height:60px;border:1px solid #ccc;margin-left:5px;border-radius:5px;overflow:auto;}
+.xl-cont .jj .fr_content .sub{width:120px;height:32px;background:url(../images/xlhy/submit.png) no-repeat;display:block;margin:75px auto 10px;}
+.xl-cont .jj .fr_content ul .char-list{width:540px;margin:10px auto 0;}
+.xl-cont .jj .fr_content ul .user-img{width:40px;height:40px;}
+.xl-cont .jj .fr_content ul .user-img img{width:40px;height:40px;}
+.xl-cont .jj .fr_content ul .char-cont{width:490px;margin-left:10px;padding-top:10px;}
+.xl-cont .jj .fr_content ul .char-cont .name .fr{cursor:pointer;}
+.xl-cont .jj .fr_content ul .char-cont p{height:24px;line-height:24px;font-size:12px;}
+.xl-cont .jj .fr_content .ask1{color:#59544E;font-weight:bold;}
+.xl-cont .jj .fr_content ul .toggle{width:430px;height:auto;background:#FFF;font-size:12px;padding-left:10px;margin:5px 0;display:none;}
+.xl-cont .jj .fr_content ul .toggle .admin span{color:#FFB100;}
+.xl-cont .jj .fr_content ul .toggle .time,.xl-cont .jj .fr_content ul .toggle .time .date{color:#D1D1D1;}
+
+.xl-cont .jj .fr_content ul .toggle .user span{color:#969696;}
+.xl-cont .jj .fr_content ul .toggle .reply a{color:#ffb100;margin-left:15px;}
+.xl-cont .jj .fr_content ul .footer{width:100%;}
+.xl-cont .jj .fr_content ul .footer span{color:#ffb100;}

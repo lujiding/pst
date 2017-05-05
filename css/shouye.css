@@ -1,0 +1,307 @@
+/*内容*/
+.con-top{
+	width: 100%;
+	margin-top: 20px;
+	overflow: hidden;
+}
+.con-t-list,
+.con-t-center,
+.cont-t-reg{
+	float: left;
+}
+.con-t-list{
+	width: 368px;
+	margin-left: 15px;
+	background: url(../images/indeximg/stdt.png) no-repeat;
+}
+.con-t-list ul{
+	padding-top: 100px;
+	width: 100%;
+}
+.con-t-list li{
+	float: left;
+	width: 100%;
+	line-height: 24px;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}
+.con-t-list li a,
+.con-t-list li span{
+	color: #242424;
+
+}
+.con-t-list li a.left_a{
+	float: left;
+	width: 210px;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}
+.con-t-list li a.left_a:hover{
+	text-decoration: underline;
+}
+.con-t-list li span.right_a{
+	float: right
+}
+
+.con-t-list .more_a {
+	float: right;
+	width: 50px;
+	height: 24px;
+	margin-top: 5px;
+	background: url(../images/indeximg/gd.png) no-repeat;
+}
+.con-t-center{
+	width: 360px;
+	margin-left: 8px;
+}
+.searchbox{
+	width: 360px;
+	height: 41px;
+	background: url(../images/indeximg/ssd.png) no-repeat;
+}
+.searchbox input{
+	float: left;
+	margin-top: 5px;
+	margin-left: 55px;
+	height: 32px;
+	width: 180px;
+	color: #bfbab6;
+	background: transparent;
+}
+.searchbox .search_a{
+	float: right;
+	margin-right: 52px;
+	width: 50px;
+	height: 32px;
+	margin-top: 5px;
+	
+}
+.imgchange{
+	position: relative;
+	width: 360px;
+	margin-top: 20px;
+	overflow: hidden;
+}
+.imgchange .zhezhao{
+	width: 348px;
+	height: 224px;
+	background: url(../images/indeximg/dbk.png) no-repeat;
+	left: 15px;
+	top: 0;
+	position: absolute;
+	z-index: 2;
+}
+.imgchange ul{
+	margin-left: 15px;
+	width: 300%
+}
+.imgchange li{
+	float: left;
+}
+.imgchange li img{
+	display: inline-block;
+	width: 100%;
+	height: 100%;
+}
+.imgchange .button{
+	position: absolute;
+	top: 180px;
+	left: 230px;
+	width: auto;
+	z-index: 3;
+}
+.imgchange .button li{
+	float: left;
+	margin-left: 5px;
+	width: 10px;
+	height: 10px;
+	cursor: pointer;
+	background: url(../images/indeximg/btnimg.png) no-repeat;
+}
+.imgchange .button li.on{
+	background: url(../images/indeximg/onimg.png) no-repeat;
+}
+.cont-t-reg{
+	float: right;
+	margin-right: 15px;
+	width: 210px;
+}
+.cont-t-reg .regbox{
+	width: 100%;
+	overflow: hidden;
+}
+.cont-t-reg .regbox a{
+	float: left;
+	width: 96px;
+	height: 32px;
+	margin-left: 8px;
+	background-repeat: no-repeat;
+}
+.cont-t-reg .regbox .reg_a{
+	background: url(../images/indeximg/zc.png)
+}
+.cont-t-reg .regbox .login_a{
+	background: url(../images/indeximg/dl.png)
+}
+.cont-t-reg .intro{
+	width: 212px;
+	height: 214px;
+	margin-top: 18px;
+	padding-top: 1px;
+	background: url(../images/indeximg/gqjs.png) no-repeat;
+}
+.cont-t-reg .my_tsg{
+	display: block;
+	width: 180px;
+	height: 44px;
+	margin-top: 16px;
+	margin-left: 16px;
+	background: url(../images/indeximg/wdtsg.png) no-repeat;
+}
+.cont-t-reg .intro ul{
+	overflow: hidden;
+	margin-left: 58px;
+	margin-top: 50px;
+}
+.cont-t-reg .intro li{
+	width: 120px;
+	height: 40px;
+	
+}
+.cont-t-reg .intro li a{
+	color: #242424;
+	display: inline-block;
+	line-height: 40px;
+}
+.cont-t-reg .intro li a:hover{
+	color: #7ac400
+}
+.con_banner{
+	width: 960px;
+	height: 130px;
+	margin: 20px auto;
+	margin-bottom: 0px;
+	background: url(../images/indeximg/banner.png) no-repeat;
+}
+.gobook{
+	width: 970px;
+	margin-left: auto;
+	margin-right: auto;
+	overflow: hidden;
+}
+.gbshare{
+	position: relative;
+	float: left;
+	width: 690px;
+	height: 515px;
+	background: url(../images/indeximg/hsfx.png) no-repeat;
+}
+.gobook .rightbtn{
+	float: right;
+	width: 270px;
+	margin-top: 80px;
+}
+.gobook .rightbtn li{
+	width: 100%;
+	height: 66px;
+	margin-top: 15px;
+}
+.gobook .rightbtn li a{
+	display: inline-block;
+	width: 100%;
+	height: 100%;
+}
+.gobook .rightbtn li.item1{
+	background: url(../images/indeximg/zxbm.png) no-repeat;
+}
+.gobook .rightbtn li.item2{
+	background: url(../images/indeximg/xlhy.png) no-repeat;
+}
+.gobook .rightbtn li.item3{
+	background: url(../images/indeximg/kkly.png) no-repeat;
+}
+.gobook .rightbtn li.item4{
+	background: url(../images/indeximg/szzy.png) no-repeat;
+}
+.gbshare .gbbox{
+	width: 510px;
+	height: 510px;
+	margin: 0 auto; 
+	margin-left: 120px;
+	margin-top: 80px;
+	overflow: hidden;
+	position: relative;
+}
+
+.gbshare .hsfx{
+	width: 900%;
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+.gbshare .bbbox{
+
+}
+.gbshare .hsfx1,
+.gbshare .hsfx2,
+.gbshare .hsfx3{
+	width: 510px;
+	float:left;
+	overflow: hidden;
+}
+.gbshare .hsfx li{
+	float: left;
+	width: 241px;
+	padding-left: 10px;
+	margin-bottom: 30px;
+	text-align: center;
+	background: url(../images/indeximg/bz.png) no-repeat left 76px;
+}
+.gbshare .hsfx li div{
+	margin: 0 auto;
+	float: left;
+	width: 95px;
+	margin-left: 10px;
+}
+.gbshare .hsfx li div span{
+	display: inline-block;
+	margin-top: 5px;
+}
+.gbshare .hsfx li div a{
+	
+	color: #878787;
+	line-height: 20px; 
+	
+}
+.gbshare .hsfx li div a:hover{
+	text-decoration: underline;
+}
+.gbshare .hsfx li div img{
+	cursor: pointer;
+	width: 95px;
+	height: 123px;
+}
+.gbshare .btnlr a{
+	position: absolute;
+	top: 50%;
+	margin-top: -10px;
+	width: 23px;
+	height: 44px;
+	background-repeat: no-repeat;
+}
+.gbshare .btnlr .left_btn_a{
+	left: 90px;
+	background: url(../images/indeximg/Triangle_1.png);
+}
+.gbshare .btnlr .right_btn_a{
+	right:45px;
+	background: url(../images/indeximg/Triangle_2.png);
+}
+.gbshare .btnlr .left_btn_a:hover{
+	background: url(../images/indeximg/Triangle_1_h.png);
+}
+.gbshare .btnlr .right_btn_a:hover{
+	background: url(../images/indeximg/Triangle_2_h.png);
+}
